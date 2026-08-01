@@ -1,7 +1,17 @@
 aid: ruedata
 name: Ruedata
-description: Ruedata is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ruedata (RueData AI) is an AI predictive tire-management software platform for
+  commercial fleet operators. It combines a smart digital inspection app, the TLGX
+  precision tire-measurement device (tread depth to +/-1/32nd and pressure to
+  +/-0.25 percent), and a centralized web platform to help fleets prevent tire
+  blowouts, cut maintenance costs, extend tire lifecycle, and improve road safety.
+  Its business-intelligence layer applies predictive analytics for tire wear and
+  route optimization, and it integrates with major telematics providers such as
+  Samsara, Geotab, Netfleet, and Traffilog plus ERP systems via direct API
+  connections. Ruedata is a portfolio company of 500 Global. As of this enrichment
+  pass it publishes a marketing and product site but no public developer API,
+  API reference, SDKs, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/ruedata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +19,48 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://ruedata.ai/favicon.ico
 tags:
 - Company
+- Fleet Management
+- Tire Management
+- Predictive Analytics
+- Telematics
+- Transportation
+- Logistics
+- Artificial Intelligence
+- Fleet Safety
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/ruedata-domain-security.yml
 - type: Website
-  url: https://ruedata.com
+  url: https://ruedata.ai
+- type: Blog
+  url: https://ruedata.ai/en/us/blog
+- type: Support
+  url: https://ruedata.ai/en/us/contact
